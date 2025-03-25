@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="index.css"/>
+  <head>
+  <body>
+    <nav>
+      <img src="../assets/logo.png" class="logo"/>
+      <div class="bar">
+        <div class="home-icon"><img src="../assets/home-icon.png" class="home-icon-img"></div>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 3H3V10H10V3Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 3H14V10H21V3Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 14H14V21H21V14Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 14H3V21H10V14Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 2V8H20" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 13H8" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M16 17H8" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 9H9H8" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16.5" cy="4.5" r="4.5" fill="#CA4230"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23 6L13.5 15.5L8.5 10.5L1 18" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M17 6H23V12" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_1_337)">
+          <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.258 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.0113 9.77251C4.28059 9.5799 4.48572 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15Z" stroke="#8C8C8C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_1_337">
+          <rect width="24" height="24" fill="white"/>
+          </clipPath>
+          </defs>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 5V19" stroke="#26252A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 12H19" stroke="#26252A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </nav>
+    <main>
+      <div class="header">
+        <div class="search-container">
+          <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" stroke-width="1.91667" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.9999 20.9998L16.6499 16.6498" stroke="white" stroke-width="1.91667" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <input type="text" class="search" placeholder="Search here..."/>
+        </div>
+        <h1 class="dashboard-title">Dashboard</h1>
+        <div class="user-profile">
+          <div class="user-info">
+            <p class="username" style="color: #fff;">Uroos Fatima</p>
+            <p class="username" style="color: #5e5e5e;">uroos.design@gmail.com</p>
+          </div>
+          <div class="pfp">
+            <img src="../assets/user.png" class="pfp-png">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="main-aside-row">
+        <section class="main-container">
+          <h1 class="gretting">Hello, Uroos</h1>
+          <section class="cards-container">
+            <div class="card left-card">
+              <img src="../assets/div-dashes.png" class="background-dashes" style="opacity: .6;">
+              <div>
+                <p class="card-tagline">Weekly Balance</p>
+                <p class="card-num-info">$20k<p></p>
+                <p class="view-list">View entire list</p>
+              </div>
+              <img src="../assets/balance.png" class="card-img">
+            </div>
+            <div class="card middle-card">
+              <img src="../assets/div-dashes.png" class="background-dashes" style="opacity: .3;">
+              <div>
+                <p class="card-tagline">Orders In Line</p>
+                <p class="card-num-info">750<p></p>
+                <p class="view-list">View entire list</p>
+              </div>
+              <img src="../assets/orders.png" class="card-img2">
+            </div>
+            <div class="card right-card">
+              <img src="../assets/div-dashes.png" class="background-dashes" style="opacity: .4;">
+              <div>
+                <p class="card-tagline">New Clients</p>
+                <p class="card-num-info">150</p>
+                <p class="view-list">View entire list</p>
+              </div>
+              <img src="../assets/clients.png" class="card-img3">
+            </div>
+          </section>
+          <section class="analytic-calendar-row">
+            <section class="analytic-section">
+              <div class="analytics-container">
+                <div class="headlines">
+                  <h1>Sales</h1>
+                  <div class="headline-btns">
+                    <div class="headline-date-btn">
+                      <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10.2917 2.66666H2.70833C2.11002 2.66666 1.625 3.15169 1.625 3.75V11.3333C1.625 11.9316 2.11002 12.4167 2.70833 12.4167H10.2917C10.89 12.4167 11.375 11.9316 11.375 11.3333V3.75C11.375 3.15169 10.89 2.66666 10.2917 2.66666Z" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M8.66663 1.58334V3.75" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M4.33337 1.58334V3.75" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M1.625 5.91666H11.375" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <p>2022</p>
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3.5 5.25L7 8.75L10.5 5.25" stroke="white" stroke-width="1.16667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                    <div class="headline-date-btn download-btn">
+                      <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7 1.25V12.75M7 12.75L2 8.25M7 12.75L11.5 8.25M1 14.75H13" stroke="#161717" stroke-linecap="round"/>
+                      </svg>
+                      <p>Download</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="analytics">
+                  <div class="prices">
+                    <p class="price-count">$50k</p>
+                    <p class="price-count">$40k</p>
+                    <p class="price-count">$30k</p>
+                    <p class="price-count">$20k</p>
+                    <p class="price-count">$10k</p>
+                  </div>
+                  <div class="grid">
+                    <div class="horizontal">
+                      <hr>
+                      <hr>
+                      <hr>
+                      <hr>
+                      <hr>
+                    </div>
+                    <div class="vertical">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <img src="../assets/analytics.png" class="analytics-png">
+                  </div>
+                  <div class="prices count">
+                    <p class="count-num">1</p>
+                    <p class="count-num">2</p>
+                    <p class="count-num">3</p>
+                    <p class="count-num">4</p>
+                    <p class="count-num">5</p>
+                    <p class="count-num">6</p>
+                    <p class="count-num">7</p>
+                    <p class="count-num">8</p>
+                    <p class="count-num">9</p>
+                    <p class="count-num">10</p>
+                    <p class="count-num">11</p>
+                    <p class="count-num">12</p>
+                  </div>
+                </div>
+              </div>
+              <img src="../assets/teacher.png" class="teacher">
+              <div class="ambion"></div>
+              <div class="analytics-tagnames">
+                <div class="analytics-tagname"><hr class="analytics-line1">Toys</div>
+                <div class="analytics-tagname"><hr class="analytics-line2">Animal Care Products</div>
+              </div>
+            </section>
+            <section class="calendar">
+              <h1>Calendar</h1>
+              <div class="calendar-container">
+                <div class="calendar-headline">
+                  <div class="headline-date-btn" style="width: 121px;">
+                    <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.2917 2.66666H2.70833C2.11002 2.66666 1.625 3.15169 1.625 3.75V11.3333C1.625 11.9316 2.11002 12.4167 2.70833 12.4167H10.2917C10.89 12.4167 11.375 11.9316 11.375 11.3333V3.75C11.375 3.15169 10.89 2.66666 10.2917 2.66666Z" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.66663 1.58334V3.75" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4.33337 1.58334V3.75" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1.625 5.91666H11.375" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>Feb</p><p>2022</p>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 5.25L7 8.75L10.5 5.25" stroke="white" stroke-width="1.16667" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <p class="view-list" style="text-decoration: .8px underline;">View</p>
+                </div>
+              </div>
+              <div class="calendar-main">
+                <div class="one-week">
+                  <p class="week">S</p>
+                  <p class="out-month">27</p>
+                  <p class="selected-day">3</p>
+                  <p class="day">10</p>
+                  <p class="day">17</p>
+                  <p class="day">24</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">M</p>
+                  <p class="out-month">28</p>
+                  <p class="selected-day">4</p>
+                  <p class="day">11</p>
+                  <p class="day">18</p>
+                  <p class="day">25</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">T</p>
+                  <p class="out-month">29</p>
+                  <p class="selected-day">5</p>
+                  <p class="day">12</p>
+                  <p class="day">19</p>
+                  <p class="day">26</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">W</p>
+                  <p class="out-month">30</p>
+                  <p class="selected-day">6</p>
+                  <p class="day">13</p>
+                  <p class="day">20</p>
+                  <p class="day">27</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">T</p>
+                  <p class="out-month">31</p>
+                  <p class="selected-day">7</p>
+                  <p class="day">14</p>
+                  <p class="day">21</p>
+                  <p class="day">28</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">F</p>
+                  <p class="day">1</p>
+                  <p class="day">8</p>
+                  <p class="day">15</p>
+                  <p class="day">22</p>
+                  <p class="out-month">29</p>
+                </div>
+                <div class="one-week">
+                  <p class="week">S</p>
+                  <p class="day">2</p>
+                  <p class="day">9</p>
+                  <p class="day">16</p>
+                  <p class="day">23</p>
+                  <p class="out-month">30</p>
+                </div>
+                <div class="selected-week">
+                </div>
+              </div>
+            </section>
+          </section>
+          <section class="analytic-calendar-row">
+            <section class="weekly-sales">
+              <h1>Weekly Sales</h1>
+              <div class="weekly-sales-graphics">
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Mon.png" style="left: -1px; bottom: -4px; width: 19px;" class="weekly-sales-png">
+                  </div>
+                  <p>Mon</p>
+                </div>
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Tue.png" style="left: -4px; bottom: -3px; width: 27px;" class="weekly-sales-png">
+                  </div>
+                  <p>Tue</p>
+                </div>
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Wed.png" style="right: -2px; bottom: -3px;" class="weekly-sales-png">
+                  </div>
+                  <p>Wed</p>
+                </div>
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Thu.png" style="left: -2px; bottom: -3px; width: 22px;" class="weekly-sales-png">
+                  </div>
+                  <p>Thu</p>
+                </div>
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Fri.png" style="left: -1px; bottom: -3px; width: 19px;" class="weekly-sales-png">
+                  </div>
+                  <p>Fri</p>
+                </div>
+                <div class="sale-day">
+                  <div class="graph-div">
+                    <img src="../assets/weekly-sales/Sat.png" class="weekly-sales-png">
+                  </div>
+                  <p>Sat</p>
+                </div>
+              </div>
+            </section>
+            <section class="customer-details">
+              <div class="headlines" style="margin: 0 24px">
+                <h1>Customer Details</h1>
+                <div class="headline-btns">
+                  <div class="headline-date-btn" style="width: 76px;">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 10.5C6 10.3674 6.05268 10.2402 6.14645 10.1464C6.24021 10.0527 6.36739 10 6.5 10H9.5C9.63261 10 9.75979 10.0527 9.85355 10.1464C9.94732 10.2402 10 10.3674 10 10.5C10 10.6326 9.94732 10.7598 9.85355 10.8536C9.75979 10.9473 9.63261 11 9.5 11H6.5C6.36739 11 6.24021 10.9473 6.14645 10.8536C6.05268 10.7598 6 10.6326 6 10.5ZM4 7.5C4 7.36739 4.05268 7.24021 4.14645 7.14645C4.24021 7.05268 4.36739 7 4.5 7H11.5C11.6326 7 11.7598 7.05268 11.8536 7.14645C11.9473 7.24021 12 7.36739 12 7.5C12 7.63261 11.9473 7.75979 11.8536 7.85355C11.7598 7.94732 11.6326 8 11.5 8H4.5C4.36739 8 4.24021 7.94732 4.14645 7.85355C4.05268 7.75979 4 7.63261 4 7.5ZM2 4.5C2 4.36739 2.05268 4.24021 2.14645 4.14645C2.24021 4.05268 2.36739 4 2.5 4H13.5C13.6326 4 13.7598 4.05268 13.8536 4.14645C13.9473 4.24021 14 4.36739 14 4.5C14 4.63261 13.9473 4.75979 13.8536 4.85355C13.7598 4.94732 13.6326 5 13.5 5H2.5C2.36739 5 2.24021 4.94732 2.14645 4.85355C2.05268 4.75979 2 4.63261 2 4.5Z" fill="white"/>
+                    </svg>
+                    <p>Filter</p>
+                  </div>
+                  <div class="headline-date-btn download-btn">
+                    <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1.25V12.75M7 12.75L2 8.25M7 12.75L11.5 8.25M1 14.75H13" stroke="#161717" stroke-linecap="round"/>
+                    </svg>
+                    <p>Download</p>
+                  </div>
+                </div>
+              </div>
+              <table>
+                <tr class="titles">
+                  <td class="table-block table-1-block">Id</td>
+                  <td class="table-block table-2-block">Customer</td>
+                  <td class="table-block table-3-block">Date</td>
+                  <td class="table-block table-4-block">Invoiced Amount</td>
+                  <td class="table-block table-5-block">Status</td>
+                </tr>
+                <tr>
+                  <td>RZ17308</td>
+                  <td>Pranjalpets</td>
+                  <td>13/01/2022</td>
+                  <td>$ 54 000</td>
+                  <td class="shipped">Shipped</td>
+                </tr>
+                <tr>
+                  <td>RZ8308</td>
+                  <td>Adom.com</td>
+                  <td>13/01/2022</td>
+                  <td>$ 86 050</td>
+                  <td class="delivered">Delivered</td>
+                </tr>
+                <tr>
+                  <td>RZ8765</td>
+                  <td>Charles Tea</td>
+                  <td>13/01/2022</td>
+                  <td>$ 4 000</td>
+                  <td class="paid">Paid</td>
+                </tr>
+                <hr class="table-horizontal-hr hr1">
+                <hr class="table-horizontal-hr hr2">
+                <hr class="table-horizontal-hr hr3">
+              </table>
+            </section>
+          </section>
+        </section>
+        <aside>
+          <div class="aside-header">
+            <div>
+              <img src="../assets/petshop-logo.png" class="petshop-logo">
+            </div>
+            <div class="petshop">
+              <p>petshop.com</p>
+              <p class="oreo">(Oreo)</p>
+            </div>
+          </div>
+          <div class="smm-resault">
+            <img src="../assets/round-graphics.png" class="round-graphics">
+            <div class="network">
+              <div class="color-network"><div class="color pink"></div><p>Facebook</p></div>
+              <div class="color-network"><div class="color green"></div><p>Youtube</p></div>
+              <div class="color-network" style="align-items: center; margin: 5px 0 9px 0;"><div class="color red"></div><p>Instagram</p></div>
+              <div class="color-network"><div class="color yellow"></div><p>Website</p></div>
+            </div>
+          </div>
+          <p class="Distribution">Distributions of sales across platform</p>
+          <hr class="aside-hr">
+          <div class="aside-date">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.0833 2.33333H2.91667C2.27233 2.33333 1.75 2.85567 1.75 3.5V11.6667C1.75 12.311 2.27233 12.8333 2.91667 12.8333H11.0833C11.7277 12.8333 12.25 12.311 12.25 11.6667V3.5C12.25 2.85567 11.7277 2.33333 11.0833 2.33333Z" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1.75 5.83333H12.25" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.33337 1.16667V3.5" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4.66663 1.16667V3.5" stroke="white" stroke-width="1.08333" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p>05th -12th Jan</p>
+            <svg width="24" style="margin: 0 0 0 23px;" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 9L12 15L18 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="aside-info">
+            <div class="aside-info-items">
+              <p>Total Intake</p>
+              <p>New Customers</p>
+              <p>Repeat Customers</p>
+              <p>Total Revenue</p>
+            </div>
+            <div class="aside-info-items">
+              <p>1500k</p>
+              <div class="aside-p-row"><p>7k</p><p class="green-p">+1k</p></div>
+              <p>1.5k</p>
+              <p>130k</p>
+            </div>
+          </div>
+          <hr class="aside-hr">
+          <div class="visitors">
+            <div class="online-visitors">
+              <p>Online Visitors</p>
+              <h1>20k</h1>
+              <div class="visitors-cotainer">
+                <div class="online"></div>
+              </div>
+            </div>
+            <div class="online-visitors">
+              <p>Offline Visitors</p>
+              <h1>7k</h1>
+              <div class="visitors-cotainer">
+                <div class="online" style="width: 120px;"></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
