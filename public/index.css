@@ -31,6 +31,7 @@ nav{
   width: 24px;
   height: 24px;
   z-index: 1;
+  cursor: pointer;
 }
 .home-icon:before{
   content: '';
@@ -54,6 +55,35 @@ nav{
   justify-content: center;
   align-items: center;
   gap: 40px;
+}
+.bar-icon svg{
+  outline: none;
+}
+.bar-icon svg:focus path{
+  stroke: white;
+  transition: .3s;
+}
+.bar-icon{
+  position: relative;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+  cursor: pointer;
+}
+.bar-icon:focus-within::before{
+  content: '';
+  position: absolute;
+  inset: -16px -39px -14px -21px;
+  background-color: black;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  z-index: -1;
+}
+.bar:focus-within .home-icon:before{
+  position: static;
+}
+.bar:focus-within .home-icon-img {
+  filter: invert(45%);
 }
 main{
   margin: 32px 0 0 36px;
@@ -83,10 +113,23 @@ main{
   color: #ffffff;
 }
 .search-icon{
-  position: absolute;
-  top: 15px;
-  left: 24px;
   cursor: pointer;
+}
+.search-icon-container{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  translate: 0 -50%;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+  border-radius: 50%;
+}
+.search-icon-container:hover{
+  background-color: rgba(255, 255, 255, .05);
 }
 .search::placeholder{
   font-family: "Poppins";
@@ -253,6 +296,7 @@ main{
   border-radius: 6px;
   border: 1px solid #525252;
   font-size: 12px;
+  cursor: pointer;
 }
 .download-btn{
   background-color: #FAD85D;
@@ -260,6 +304,7 @@ main{
   font-weight: 500;
   width: 103px;
   border: none;
+  cursor: pointer;
 }
 .headlines h1{
   font-size: 16px;
