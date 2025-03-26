@@ -9,13 +9,14 @@ body{
   background-color: #242424;
   display: flex;
   font-family: "Poppins";
+  
   color: #fff;
 }
 
 nav{
   background-color: #161717;
   width: 100px;
-  height: 960px;
+  height: 112vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: start;
@@ -86,7 +87,7 @@ nav{
   filter: invert(45%);
 }
 main{
-  margin: 32px 0 0 36px;
+  margin: 20px auto 0 auto;
 }
 .main-aside-row{
   width: 1273px;
@@ -185,7 +186,7 @@ main{
   font-size: 32px;
   letter-spacing: 1.5px;
   font-weight: 400;
-  margin: 32px 0 20px;
+  margin: 20px 0;
 }
 
 .cards-container{
