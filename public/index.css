@@ -9,7 +9,6 @@ body{
   background-color: #242424;
   display: flex;
   font-family: "Poppins";
-  
   color: #fff;
 }
 
@@ -62,7 +61,7 @@ nav{
 }
 .bar-icon svg:focus path{
   stroke: white;
-  transition: .3s;
+  transition: .2s;
 }
 .bar-icon{
   position: relative;
@@ -80,8 +79,25 @@ nav{
   border-bottom-left-radius: 12px;
   z-index: -1;
 }
-.bar:focus-within .home-icon:before{
+.bar-icon:hover::before{
+  content: '';
+  position: absolute;
+  inset: -16px -39px -14px -21px;
+  background-color: black;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  z-index: -1;
+}
+.bar:focus-within .home-icon::before{
   position: static;
+}
+.bar:focus-within .home-icon:hover::before{
+  position: absolute;
+  inset: -16px -39px -14px -21px;
+  background-color: black;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  z-index: -1;
 }
 .bar:focus-within .home-icon-img {
   filter: invert(45%);
